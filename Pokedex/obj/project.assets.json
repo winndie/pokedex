@@ -474,11 +474,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/Volumes/D/Documents/Jobs/HomeOffice/dev/Pokedex/Pokedex.csproj",
+      "projectUniqueName": "/Volumes/D/Documents/Jobs/HomeOffice/pokedex/Pokedex/Pokedex.csproj",
       "projectName": "Pokedex",
-      "projectPath": "/Volumes/D/Documents/Jobs/HomeOffice/dev/Pokedex/Pokedex.csproj",
+      "projectPath": "/Volumes/D/Documents/Jobs/HomeOffice/pokedex/Pokedex/Pokedex.csproj",
       "packagesPath": "/Users/winndie/.nuget/packages/",
-      "outputPath": "/Volumes/D/Documents/Jobs/HomeOffice/dev/Pokedex/obj/",
+      "outputPath": "/Volumes/D/Documents/Jobs/HomeOffice/pokedex/Pokedex/obj/",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "/Users/winndie/.nuget/NuGet/NuGet.Config"
