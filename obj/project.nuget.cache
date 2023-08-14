@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "gtGwt+tXpPIIh4r+P91kejLb6MvysuU2/nabxLkKiJvqFsLn5PMDxA9beIkXb6AZtHR/UiPVxb7kKb6HZlbAVw==",
+  "dgSpecHash": "v1MF9NRTXt7mx3us0nbuw7AfxpnbACkcuXmAc2H3l6niXFgzt4oWq3YobSjohHwjGZ20bgBDY5mzWAr1izwpEA==",
   "success": true,
-  "projectFilePath": "/Volumes/D/Documents/Jobs/HomeOffice/pokedex/Pokedex/src.csproj",
+  "projectFilePath": "/Volumes/D/Documents/Jobs/HomeOffice/pokedex/Pokedex.csproj",
   "expectedPackageFiles": [
     "/Users/winndie/.nuget/packages/microsoft.aspnetcore.openapi/7.0.9/microsoft.aspnetcore.openapi.7.0.9.nupkg.sha512",
     "/Users/winndie/.nuget/packages/microsoft.extensions.apidescription.server/6.0.5/microsoft.extensions.apidescription.server.6.0.5.nupkg.sha512",
