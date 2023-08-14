@@ -13,35 +13,37 @@ namespace Pokedex.Services
 		{
             var name = pokemonName.ToLower();
             var uri = $"https://pokeapi.co/api/v2/pokemon/{name}";
-            var jobject = GetJson(uri);
+            var apiResult = GetJson(uri);
 
-            if (jobject["id"] != null)
+            if (apiResult.IsSuccess)
             {
-                int? id = Convert.ToInt32(jobject["id"]?.ToString());
+                var jsobject = apiResult.Data;
+                int? id = Convert.ToInt32(jsobject?["id"]?.ToString());
 
                 if (id != null)
                 {
                     uri = $"https://pokeapi.co/api/v2/evolution-chain/{id}";
-                    jobject = GetJson(uri);
+                    apiResult = GetJson(uri);
 
-                    if (jobject["chain"]?["species"]?["name"] != null)
+                    if (apiResult.IsSuccess)
                     {
-                        return new ServiceResult<Variation>(new Variation(jobject["chain"]?["species"]?["name"]?.ToString(), new List<Variation> { }));
+                        jsobject = apiResult.Data;
+                        return new ServiceResult<Variation>(new Variation(jsobject?["chain"]?["species"]?["name"]?.ToString(), new List<Variation> { }));
                     }
                 }
             }
             return new ServiceResult<Variation>();
         }
 
-        private JObject GetJson(string uri)
+        private ServiceResult<JObject> GetJson(string uri)
         {
-            var result = new JObject();
+            var result = new ServiceResult<JObject>();
             var client = new HttpClient();
             var response = client.GetAsync(uri).Result;
             if (response.IsSuccessStatusCode)
             {
                 var json = response.Content.ReadAsStringAsync().Result;
-                result = JObject.Parse(json);
+                result = new ServiceResult< JObject >(JObject.Parse(json));
             }
 
             if(client != null)
