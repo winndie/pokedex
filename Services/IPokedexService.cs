@@ -4,7 +4,7 @@ namespace Pokedex.Services
 {
 	public interface IPokedexService
     {
-        Variation GetEvolutionChain(string pokemonName);
+        ServiceResult<Variation> GetEvolutionChain(string pokemonName);
     }
 }
 

@@ -24,8 +24,8 @@ public class PokedexController : ControllerBase
     [ProducesResponseType(StatusCodes.Status404NotFound)]
     public IActionResult Get(string pokemonName)
     {
-        var evolutions = _pokedexService.GetEvolutionChain(pokemonName);
-        return evolutions == null ? NotFound() : Ok(evolutions);
+        ServiceResult<Variation> evolutions = _pokedexService.GetEvolutionChain(pokemonName);
+        return evolutions.IsSuccess ? Ok(evolutions.Data) : NotFound();
     }
 }
 

@@ -1,34 +1,20 @@
-﻿<Properties GitUserInfo="UsingGIT" StartupConfiguration="{92B59A1C-2112-4F6C-9981-F8D9C2411B08}|https">
-  <MultiItemStartupConfigurations />
-  <MonoDevelop.Ide.Workbench ActiveDocument="Tests/PokedexControllerTest.cs">
-    <Files>
-      <File FileName="Services/PokedexService.cs" Line="29" Column="24" />
-      <File FileName="Controllers/PokedexController.cs" Line="29" Column="1" />
-      <File FileName="Tests/PokedexControllerTest.cs" Line="1" Column="10" />
-      <File FileName="Models/Variation.cs" Line="13" Column="1" />
-    </Files>
+﻿<Properties StartupConfiguration="{92B59A1C-2112-4F6C-9981-F8D9C2411B08}|https" GitUserInfo="UsingGIT">
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.Workbench>
     <Pads>
       <Pad Id="ProjectPad">
         <State name="__root__">
           <Node name="Pokedex">
-            <Node name="Pokedex">
-              <Node name="Controllers" expanded="True" />
-              <Node name="Models" expanded="True" />
-              <Node name="Services" expanded="True" />
-              <Node name="Tests" expanded="True">
-                <Node name="PokedexControllerTest.cs" selected="True" />
-              </Node>
-              <Node name="appsettings.json" expanded="True" />
-            </Node>
+            <Node name="Pokedex" selected="True" />
           </Node>
         </State>
       </Pad>
     </Pads>
   </MonoDevelop.Ide.Workbench>
-  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
   <MonoDevelop.Ide.ItemProperties.Pokedex PreferredExecutionTarget="/Applications/Google Chrome.app" />
-  <MonoDevelop.Ide.DebuggingService.Breakpoints>
-    <BreakpointStore />
-  </MonoDevelop.Ide.DebuggingService.Breakpoints>
-  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MultiItemStartupConfigurations />
 </Properties>

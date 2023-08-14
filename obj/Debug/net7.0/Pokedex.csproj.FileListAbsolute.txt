@@ -66,6 +66,9 @@
 /Volumes/D/Documents/Jobs/HomeOffice/dev/Pokedex/obj/Debug/net7.0/ref/Pokedex.dll
 /Volumes/D/Documents/Jobs/HomeOffice/pokedex/bin/Debug/net7.0/appsettings.Development.json
 /Volumes/D/Documents/Jobs/HomeOffice/pokedex/bin/Debug/net7.0/appsettings.json
+/Volumes/D/Documents/Jobs/HomeOffice/pokedex/bin/Debug/net7.0/xunit.runner.visualstudio.dotnetcore.testadapter.dll
+/Volumes/D/Documents/Jobs/HomeOffice/pokedex/bin/Debug/net7.0/xunit.runner.reporters.netcoreapp10.dll
+/Volumes/D/Documents/Jobs/HomeOffice/pokedex/bin/Debug/net7.0/xunit.runner.utility.netcoreapp10.dll
 /Volumes/D/Documents/Jobs/HomeOffice/pokedex/bin/Debug/net7.0/Pokedex
 /Volumes/D/Documents/Jobs/HomeOffice/pokedex/bin/Debug/net7.0/Pokedex.deps.json
 /Volumes/D/Documents/Jobs/HomeOffice/pokedex/bin/Debug/net7.0/Pokedex.runtimeconfig.json
@@ -80,6 +83,10 @@
 /Volumes/D/Documents/Jobs/HomeOffice/pokedex/bin/Debug/net7.0/Swashbuckle.AspNetCore.Swagger.dll
 /Volumes/D/Documents/Jobs/HomeOffice/pokedex/bin/Debug/net7.0/Swashbuckle.AspNetCore.SwaggerGen.dll
 /Volumes/D/Documents/Jobs/HomeOffice/pokedex/bin/Debug/net7.0/Swashbuckle.AspNetCore.SwaggerUI.dll
+/Volumes/D/Documents/Jobs/HomeOffice/pokedex/bin/Debug/net7.0/xunit.abstractions.dll
+/Volumes/D/Documents/Jobs/HomeOffice/pokedex/bin/Debug/net7.0/xunit.assert.dll
+/Volumes/D/Documents/Jobs/HomeOffice/pokedex/bin/Debug/net7.0/xunit.core.dll
+/Volumes/D/Documents/Jobs/HomeOffice/pokedex/bin/Debug/net7.0/xunit.execution.dotnet.dll
 /Volumes/D/Documents/Jobs/HomeOffice/pokedex/obj/Debug/net7.0/Pokedex.csproj.AssemblyReference.cache
 /Volumes/D/Documents/Jobs/HomeOffice/pokedex/obj/Debug/net7.0/Pokedex.GeneratedMSBuildEditorConfig.editorconfig
 /Volumes/D/Documents/Jobs/HomeOffice/pokedex/obj/Debug/net7.0/Pokedex.AssemblyInfoInputs.cache

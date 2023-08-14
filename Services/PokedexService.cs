@@ -1,7 +1,5 @@
-﻿using System;
-using Pokedex.Models;
-using System.Net.Http;
-using Newtonsoft.Json;
+﻿using Pokedex.Models;
+using Newtonsoft.Json.Linq;
 
 namespace Pokedex.Services
 {
@@ -11,24 +9,45 @@ namespace Pokedex.Services
 		{
 		}
 
-		public Variation GetEvolutionChain(string pokemonName)
+		public ServiceResult<Variation> GetEvolutionChain(string pokemonName)
 		{
-            var id = pokemonName == "pikachu" ? 1 :0;
-            var uri = $"https://pokeapi.co/api/v2/evolution-chain/{id}";
+            var name = pokemonName.ToLower();
+            var uri = $"https://pokeapi.co/api/v2/pokemon/{name}";
+            var jobject = GetJson(uri);
+
+            if (jobject["id"] != null)
+            {
+                int? id = Convert.ToInt32(jobject["id"]?.ToString());
+
+                if (id != null)
+                {
+                    uri = $"https://pokeapi.co/api/v2/evolution-chain/{id}";
+                    jobject = GetJson(uri);
+
+                    if (jobject["chain"]?["species"]?["name"] != null)
+                    {
+                        return new ServiceResult<Variation>(new Variation(jobject["chain"]?["species"]?["name"]?.ToString(), new List<Variation> { }));
+                    }
+                }
+            }
+            return new ServiceResult<Variation>();
+        }
+
+        private JObject GetJson(string uri)
+        {
+            var result = new JObject();
             var client = new HttpClient();
             var response = client.GetAsync(uri).Result;
-
             if (response.IsSuccessStatusCode)
             {
                 var json = response.Content.ReadAsStringAsync().Result;
-                var evolutions = JsonConvert.DeserializeObject<Variation>(json);
-                return new Variation("caterpie", new List<Variation> {
-                    new Variation("metapod", new List<Variation> {
-                    new Variation("butterfree", new List<Variation> {})
-                    })
-                    });
+                result = JObject.Parse(json);
             }
-            return null;
+
+            if(client != null)
+                client.Dispose();
+
+            return result;
         }
     }
 }
