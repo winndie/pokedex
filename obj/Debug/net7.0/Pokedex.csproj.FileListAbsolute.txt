@@ -71,8 +71,12 @@
 /Volumes/D/Documents/Jobs/HomeOffice/pokedex/bin/Debug/net7.0/Pokedex.runtimeconfig.json
 /Volumes/D/Documents/Jobs/HomeOffice/pokedex/bin/Debug/net7.0/Pokedex.dll
 /Volumes/D/Documents/Jobs/HomeOffice/pokedex/bin/Debug/net7.0/Pokedex.pdb
+/Volumes/D/Documents/Jobs/HomeOffice/pokedex/bin/Debug/net7.0/Castle.Core.dll
+/Volumes/D/Documents/Jobs/HomeOffice/pokedex/bin/Debug/net7.0/Json.Net.dll
 /Volumes/D/Documents/Jobs/HomeOffice/pokedex/bin/Debug/net7.0/Microsoft.AspNetCore.OpenApi.dll
 /Volumes/D/Documents/Jobs/HomeOffice/pokedex/bin/Debug/net7.0/Microsoft.OpenApi.dll
+/Volumes/D/Documents/Jobs/HomeOffice/pokedex/bin/Debug/net7.0/Moq.dll
+/Volumes/D/Documents/Jobs/HomeOffice/pokedex/bin/Debug/net7.0/Newtonsoft.Json.dll
 /Volumes/D/Documents/Jobs/HomeOffice/pokedex/bin/Debug/net7.0/Swashbuckle.AspNetCore.Swagger.dll
 /Volumes/D/Documents/Jobs/HomeOffice/pokedex/bin/Debug/net7.0/Swashbuckle.AspNetCore.SwaggerGen.dll
 /Volumes/D/Documents/Jobs/HomeOffice/pokedex/bin/Debug/net7.0/Swashbuckle.AspNetCore.SwaggerUI.dll

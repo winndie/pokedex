@@ -1,16 +1,21 @@
 {
   "version": 2,
-  "dgSpecHash": "v1MF9NRTXt7mx3us0nbuw7AfxpnbACkcuXmAc2H3l6niXFgzt4oWq3YobSjohHwjGZ20bgBDY5mzWAr1izwpEA==",
+  "dgSpecHash": "S8YhMszFk4DRTlddp+4BShDPJBVf58PAV+ru2+v++1qhaZVqns10wY7179bg9YL6CwvDL+O3jUc1T+QXBZQMPQ==",
   "success": true,
   "projectFilePath": "/Volumes/D/Documents/Jobs/HomeOffice/pokedex/Pokedex.csproj",
   "expectedPackageFiles": [
+    "/Users/winndie/.nuget/packages/castle.core/5.1.1/castle.core.5.1.1.nupkg.sha512",
+    "/Users/winndie/.nuget/packages/json.net/1.0.33/json.net.1.0.33.nupkg.sha512",
     "/Users/winndie/.nuget/packages/microsoft.aspnetcore.openapi/7.0.9/microsoft.aspnetcore.openapi.7.0.9.nupkg.sha512",
     "/Users/winndie/.nuget/packages/microsoft.extensions.apidescription.server/6.0.5/microsoft.extensions.apidescription.server.6.0.5.nupkg.sha512",
     "/Users/winndie/.nuget/packages/microsoft.openapi/1.4.3/microsoft.openapi.1.4.3.nupkg.sha512",
+    "/Users/winndie/.nuget/packages/moq/4.20.69/moq.4.20.69.nupkg.sha512",
+    "/Users/winndie/.nuget/packages/newtonsoft.json/13.0.3/newtonsoft.json.13.0.3.nupkg.sha512",
     "/Users/winndie/.nuget/packages/swashbuckle.aspnetcore/6.5.0/swashbuckle.aspnetcore.6.5.0.nupkg.sha512",
     "/Users/winndie/.nuget/packages/swashbuckle.aspnetcore.swagger/6.5.0/swashbuckle.aspnetcore.swagger.6.5.0.nupkg.sha512",
     "/Users/winndie/.nuget/packages/swashbuckle.aspnetcore.swaggergen/6.5.0/swashbuckle.aspnetcore.swaggergen.6.5.0.nupkg.sha512",
-    "/Users/winndie/.nuget/packages/swashbuckle.aspnetcore.swaggerui/6.5.0/swashbuckle.aspnetcore.swaggerui.6.5.0.nupkg.sha512"
+    "/Users/winndie/.nuget/packages/swashbuckle.aspnetcore.swaggerui/6.5.0/swashbuckle.aspnetcore.swaggerui.6.5.0.nupkg.sha512",
+    "/Users/winndie/.nuget/packages/system.diagnostics.eventlog/6.0.0/system.diagnostics.eventlog.6.0.0.nupkg.sha512"
   ],
   "logs": []
 }
