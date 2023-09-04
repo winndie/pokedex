@@ -1,26 +1,27 @@
 {
   "format": 1,
   "restore": {
-    "/Volumes/D/Documents/Jobs/HomeOffice/pokedex/Pokedex.csproj": {}
+    "C:\\work\\pokedex\\Pokedex.csproj": {}
   },
   "projects": {
-    "/Volumes/D/Documents/Jobs/HomeOffice/pokedex/Pokedex.csproj": {
+    "C:\\work\\pokedex\\Pokedex.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/Volumes/D/Documents/Jobs/HomeOffice/pokedex/Pokedex.csproj",
+        "projectUniqueName": "C:\\work\\pokedex\\Pokedex.csproj",
         "projectName": "Pokedex",
-        "projectPath": "/Volumes/D/Documents/Jobs/HomeOffice/pokedex/Pokedex.csproj",
-        "packagesPath": "/Users/winndie/.nuget/packages/",
-        "outputPath": "/Volumes/D/Documents/Jobs/HomeOffice/pokedex/obj/",
+        "projectPath": "C:\\work\\pokedex\\Pokedex.csproj",
+        "packagesPath": "C:\\Users\\winnd\\.nuget\\packages\\",
+        "outputPath": "C:\\work\\pokedex\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "/Users/winndie/.nuget/NuGet/NuGet.Config"
+          "C:\\Users\\winnd\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
           "net7.0"
         ],
         "sources": {
-          "/usr/local/share/dotnet/sdk/7.0.307/Sdks/Microsoft.NET.Sdk.Web/library-packs": {},
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -43,6 +44,10 @@
               "target": "Package",
               "version": "[7.0.9, )"
             },
+            "Microsoft.NET.Test.Sdk": {
+              "target": "Package",
+              "version": "[17.7.2, )"
+            },
             "Newtonsoft.Json": {
               "target": "Package",
               "version": "[13.0.3, )"
@@ -50,6 +55,22 @@
             "Swashbuckle.AspNetCore": {
               "target": "Package",
               "version": "[6.5.0, )"
+            },
+            "coverlet.collector": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[6.0.0, )"
+            },
+            "xunit": {
+              "target": "Package",
+              "version": "[2.5.0, )"
+            },
+            "xunit.runner.visualstudio": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.5.0, )"
             }
           },
           "imports": [
@@ -71,7 +92,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/7.0.307/RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.400\\RuntimeIdentifierGraph.json"
         }
       }
     }
